@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produkt</title>
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/product.css" />
+  </head>
+  <body>
+    <header>
+      <h1>FashionRUS</h1>
+      <nav></nav>
+    </header>
+    <main>
+      <ol class="breadcrumbs">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="category.html">Categories</a></li>
+        <li><a href="productList.html">Apparel</a></li>
+        <li class="breadcrumbs_product_name">
+          Sahara Team India Fanwear Round Neck Jersey
+        </li>
+      </ol>
+      <div class="grid">
+        <img class="product_image" />
+        <div class="sold_out hide"><p>Sold out</p></div>
+        <section class="purchase_box">
+          <p>
+            <a href="#brandBlockBio"><span class="brand">Nike</span></a> |
+            <span class="article_type">Tshirts</span>
+          </p>
+          <h2 class="product_name">
+            Sahara Team India Fanwear Round Neck Jersey
+          </h2>
+          <p>Price: <span class="price"></span> DKK</p>
+          <form class="form">
+            <label
+              >Choose a size
+              <select name="size">
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xl">XL</option>
+              </select>
+            </label>
+            <button>Add to basket</button>
+          </form>
+        </section>
+        <section class="info">
+          <h2>Product Information</h2>
+          <dl>
+            <dt>Model Name</dt>
+            <dd class="variant_name">Roundneck Jersey</dd>
+            <dt>Color</dt>
+            <dd class="base_colour">Blue</dd>
+            <dt>Inventory number</dt>
+            <dd class="rel_id">1163</dd>
+          </dl>
+        </section>
+      </div>
+      <section class="brand_info">
+        <article id="brand_block_bio" class="brand_block">
+          <h3 class="brand_name">Nike</h3>
+          <p>
+            "<span class="brand_bio"
+              >Nike, creating experiences for today’s athlete</span
+            >"
+          </p>
+          <img class="brand_image" />
+        </article>
+      </section>
+    </main>
+    <script src="js/product.js"></script>
+  </body>
+</html>

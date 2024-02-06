@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.grid {
+    max-width: 1000px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+.SProduct {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    color: aliceblue;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.grid_3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+body{
+    background-color: slategray;
+}
+a{
+    text-decoration: none;
+}
+header{
+    color: aliceblue;
+}
+h2{
+    font-size: 120%;
+}
+.hide{
+    display: none;
+}
+.sold_out{
+    padding: 0.5rem;
+    background-color: black;
+    width: 25%;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+}
+.discounted{
+    text-decoration: line-through;
+}
