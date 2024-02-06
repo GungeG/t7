@@ -33,6 +33,9 @@ function showProducts(products) {
   })
 }
 
+
+haa
+
 function checkDiscount(product, copy){
   copy.querySelector(".discount").textContent = product.discount + "%";
   copy.querySelector(".price").classList.add("discounted");
